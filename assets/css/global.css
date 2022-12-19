@@ -1,0 +1,105 @@
+body {
+  margin-top: 8px;
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+}
+
+nav {
+  display: flex;
+  height: 80px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+nav div img{
+  padding-left: 160px;
+  height: 120px;
+
+}
+
+nav ul{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  color: #FC8C04;
+  justify-content: space-around;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 20px;
+  padding-right: 151px;
+
+}
+
+nav ul li {
+  justify-content: space-between;
+  padding: 17px; 
+}
+
+footer {
+  width: 100%;
+  height: 255px;
+  background: #F4A340;
+}
+
+footer .boxs {
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  padding: 60px; 
+}
+
+.boxs h2 {
+
+  color: #fff;
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-family: 'Antonio';
+  
+}
+
+.boxs ul li {
+  margin: 10px 0px;
+  list-style: none;
+  font-size: 16px;
+  font-family: 'Antonio';
+}
+
+.boxs ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.boxs ul li a:hover {
+
+  color: #d9d9d9;
+}
+
+.line {
+  display: flex;
+  justify-content: center ;
+  height: 133px;
+  padding-top: 1px;
+  padding-left: 38px;
+  padding-right: 66px ;
+}
+
+.logoblack {
+  display: flex;
+  width: 80px;
+  height: 88.36px;
+  align-self: center;
+  justify-content: flex-end;
+  margin-left: 250px;
+}
+
+.logowhite {
+  display: flex;
+  width: 80px;
+  height: 88.36px;
+  align-self: center;
+  padding-left: 24px;
+}
+

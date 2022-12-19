@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+* {
+    box-sizing: border-box;
+  }
+
+.corpo-carrosel {
+  font-family: 'Muli', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.carrossel {
+  display: flex;
+  width: 100vw;
+}
+
+.painel {
+
+  height: 60vh;
+  border-radius: 50px;
+  color:#F4A340;
+  cursor: pointer;
+  flex: 0.5;
+  margin: 5px;
+  position: relative;
+  transition: flex 0.7s ease-in;
+}
+
+.painel h3 {
+  font-size: 30px;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  margin: 0;
+  opacity: 0;
+}
+
+.painel.ativo {
+    flex: 10;
+}
+
+.painel.ativo h3 {
+  opacity: 1;
+  transition: opacity 0.3s ease-in 0.4s;
+}
+
+@media (max-width: 480px) {
+  .carrossel {
+    width: 100vw;
+  }
+
+  .painel:nth-of-type(4),
+  .painel:nth-of-type(5) {
+    display: none;
+  }
+}
